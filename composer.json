@@ -1,5 +1,5 @@
 {
-  "name": "contributte/bare",
+  "name": "todo/test",
   "description": "This is an empty library skeleton to speed up new package development.",
   "keywords": [
     "nette",
@@ -16,7 +16,11 @@
     }
   ],
   "require": {
-    "php": "^7.3"
+    "php": "^7.3",
+    "nette/application": "^3.0",
+    "nette/di": "~3.0.0",
+    "latte/latte": "^2.5.1",
+    "joseki/pdf-response": "^5.0"
   },
   "require-dev": {
     "ninjify/nunjuck": "^0.3.0",
@@ -28,7 +32,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Contributte\\Bare\\": "src"
+      "Todo\\Pdf\\": "src"
     }
   },
   "autoload-dev": {
